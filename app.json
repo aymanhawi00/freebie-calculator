@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Ayman's Calc",
+    "slug": "Calculator-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/calculator-icon.jpg",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/calculator-icon.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ayman00.CalculatorApp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/calculator-icon.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8e27c49e-013f-49cf-ac68-16ab858acb40"
+      }
+    }
+  }
+}
